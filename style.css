@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color:#fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+  color:#f00;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+a[href$=".pdf"]{
+  color:pink;
+}
+
+a:hover{
+  color:#c55;
+  text-decoration: underline;
+}
+
+a:hover:after{
+  content:" 🤭";
+}
+
+h1{
+  font-size:calc(3rem + 5vw);
+}
+
+#bloque{
+  margin:5rem;
+  padding: 1rem;
+  background: rgba(255,255,255,.2);
+  border-radius: 1rem;
+  box-shadow: 0 0 5px white;
+}
+
+.xmas  {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ajuste{
+  font-size:120%;
+}
+/*
+canvas {
+  display: block;
+}
+*/
